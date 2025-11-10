@@ -1,0 +1,125 @@
+[
+  {
+    "id": "sk-cerave-cleanser",
+    "name": "Gentle Hydrating Cleanser",
+    "brand": "L\u2019Or\u00e9al Paris",
+    "category": "Skincare",
+    "concerns": [
+      "Hydration",
+      "Sensitive"
+    ],
+    "steps": [
+      "AM",
+      "PM"
+    ],
+    "keyIngredients": [
+      "Glycerin",
+      "Ceramides"
+    ],
+    "notes": "Non-stripping gel cream cleanser suitable for most skin types."
+  },
+  {
+    "id": "sk-vitc-serum",
+    "name": "Vitamin C 12% Serum",
+    "brand": "L\u2019Or\u00e9al Paris",
+    "category": "Skincare",
+    "concerns": [
+      "Anti-aging",
+      "Hyperpigmentation"
+    ],
+    "steps": [
+      "AM"
+    ],
+    "keyIngredients": [
+      "Ascorbic Acid",
+      "Hyaluronic Acid"
+    ],
+    "notes": "Apply after cleansing; follow with SPF."
+  },
+  {
+    "id": "sk-spf50",
+    "name": "UV Defender SPF 50",
+    "brand": "L\u2019Or\u00e9al Paris",
+    "category": "Skincare",
+    "concerns": [
+      "Hydration",
+      "Sensitive",
+      "Anti-aging"
+    ],
+    "steps": [
+      "AM"
+    ],
+    "keyIngredients": [
+      "UVA/UVB Filters"
+    ],
+    "notes": "Broad-spectrum sunscreen; reapply every 2 hours if in sun."
+  },
+  {
+    "id": "mk-foundation",
+    "name": "True Match Foundation",
+    "brand": "L\u2019Or\u00e9al Paris",
+    "category": "Makeup",
+    "concerns": [
+      "Hydration"
+    ],
+    "steps": [
+      "AM"
+    ],
+    "keyIngredients": [
+      "Glycerin"
+    ],
+    "notes": "Buildable coverage; hydrating finish."
+  },
+  {
+    "id": "hr-volume-shampoo",
+    "name": "Volumizing Shampoo",
+    "brand": "L\u2019Or\u00e9al Paris",
+    "category": "Haircare",
+    "concerns": [
+      "Volume",
+      "Fine hair"
+    ],
+    "steps": [
+      "AM",
+      "PM"
+    ],
+    "keyIngredients": [
+      "Protein Complex"
+    ],
+    "notes": "Cleanses while adding body."
+  },
+  {
+    "id": "hr-color-mask",
+    "name": "Color Care Mask",
+    "brand": "L\u2019Or\u00e9al Paris",
+    "category": "Haircare",
+    "concerns": [
+      "Color care",
+      "Damage"
+    ],
+    "steps": [
+      "PM"
+    ],
+    "keyIngredients": [
+      "Ceramides"
+    ],
+    "notes": "Deep conditioning; use 1\u20132\u00d7 weekly."
+  },
+  {
+    "id": "fr-signature",
+    "name": "Signature Eau de Parfum",
+    "brand": "L\u2019Or\u00e9al Paris",
+    "category": "Fragrance",
+    "concerns": [],
+    "steps": [
+      "AM",
+      "PM"
+    ],
+    "keyIngredients": [
+      "Citrus",
+      "Floral",
+      "Musk"
+    ],
+    "notes": "A balanced day-to-night scent."
+  }
+]

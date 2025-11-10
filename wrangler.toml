@@ -1,0 +1,9 @@
+name = "loreal-chat-worker"
+main = "cloudflare/worker.js"
+compatibility_date = "2024-11-11"
+
+[vars]
+# Optionally set model or other vars here
+
+# To deploy:
+# wrangler publish

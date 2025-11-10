@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>L’Oréal Routine Builder</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Montserrat for headings and UI (keeps Inter as a fallback in CSS stack) -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="page-center">
+    <header class="app-header">
+      <div class="brand">
+        <img src="./img/loreal-logo.png" alt="L'Oréal" class="brand-logo" />
+        <div class="brand-copy">
+          <h1>Routine Builder</h1>
+          <p>Discover products, build routines, and get personalized tips.</p>
+        </div>
+      </div>
+      <nav class="nav">
+        <button class="tab-btn is-active" data-tab="chat">Chat</button>
+        <button class="tab-btn" data-tab="browse">Browse</button>
+        <button class="tab-btn" data-tab="routine">My Routine</button>
+      </nav>
+    </header>
+
+    <main class="app-main">
+    <!-- CHAT PANEL -->
+    <section id="tab-chat" class="tab is-active">
+      <div id="chat-log" class="chat-log" aria-live="polite"></div>
+      <form id="chat-form" class="chat-form" autocomplete="off">
+        <input id="chat-input" class="chat-input" name="message" placeholder="Ask about skincare, makeup, haircare, or fragrances..." required />
+        <button class="chat-send" aria-label="Send">Send</button>
+      </form>
+      <div class="disclaimer">Educational demo — not medical advice. Patch-test new products.</div>
+    </section>
+
+    <!-- BROWSE PANEL -->
+    <section id="tab-browse" class="tab">
+      <div class="filters">
+        <select id="category-filter" aria-label="Category">
+          <option value="">All categories</option>
+          <option>Skincare</option>
+          <option>Makeup</option>
+          <option>Haircare</option>
+          <option>Fragrance</option>
+        </select>
+        <select id="concern-filter" aria-label="Concern">
+          <option value="">Any concern</option>
+          <option>Anti-aging</option>
+          <option>Acne</option>
+          <option>Hydration</option>
+          <option>Sensitive</option>
+          <option>Volume</option>
+          <option>Color care</option>
+        </select>
+        <input id="search-filter" placeholder="Search name or ingredients" aria-label="Product search"/>
+      </div>
+      <div id="product-grid" class="product-grid" aria-live="polite"></div>
+    </section>
+
+    <!-- ROUTINE PANEL -->
+    <section id="tab-routine" class="tab">
+      <div class="routine-columns">
+        <div>
+          <h2>AM</h2>
+          <ul id="routine-am" class="routine-list"></ul>
+        </div>
+        <div>
+          <h2>PM</h2>
+          <ul id="routine-pm" class="routine-list"></ul>
+        </div>
+      </div>
+      <div class="routine-actions">
+        <button id="export-routine" class="ghost">Export as JSON</button>
+        <a id="download-link" class="hidden">Download routine.json</a>
+      </div>
+    </section>
+  </main>
+  </div>
+
+  <footer class="app-footer">
+    <small>© L’Oréal — Demo app for learning JavaScript, APIs, and OpenAI.</small>
+  </footer>
+
+  <script type="module" src="./script.js"></script>
+</body>
+</html>
